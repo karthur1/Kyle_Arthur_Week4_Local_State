@@ -84,7 +84,7 @@ export default function App() {
     } else if (option === "<") {
       return sortAsc();
     } else if (option === "shuffle") {
-      return shuffleArray(data.countries); // Use the custom shuffle function for "Shuffle" option
+      return shuffleArray(data.countries); 
     } else {
       return data.countries;
     }
@@ -105,7 +105,7 @@ export default function App() {
             <option value="<">Population Asc</option>
             <option value="alpha">Alphabetically</option>
             <option value="shuffle">Shuffle</option>{" "}
-            {/* Add a "Shuffle" option */}
+            {}
           </select>
         </label>
 
